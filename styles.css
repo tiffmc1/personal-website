@@ -114,9 +114,13 @@ body {
 }
 
 /* individual portfolio page */
-.ind-portfolio-img img {
+.rare-plant-shop-img img {
 	width: 60%;
 	margin-left: 25%;
+}
+
+.task-tracker-img img {
+	width: 100%;
 }
 
 /* about page */
@@ -126,8 +130,7 @@ body {
 }
 
 .profile-img img {
-	width: 450px;
-	height: 550px;
+	width: 50%;
 	border-radius: 50%;
 	margin-left: 25%;
 }
