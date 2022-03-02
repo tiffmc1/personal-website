@@ -1,5 +1,6 @@
 /* master styles */
 body {
+	font-family: "Antic Slab", serif;
 	margin: 0px;
 }
 
@@ -12,7 +13,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 38px;
-	background-color: pink;
 }
 
 .left-column {
@@ -41,5 +41,126 @@ body {
 }
 
 .nav-link-wrapper a:hover {
+	color: black;
+}
+
+/* portfolio page */
+.portfolio-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+	position: relative;
+}
+
+.portfolio-img-bkgd {
+	height: 250px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.img-text {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.img-logo {
+	margin-bottom: 10px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+	font-weight: 800;
+	font-size: 1.1em;
+}
+
+.img-logo a {
+	color: white;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.img-logo:hover {
+	border-bottom: 1px solid rgba(245, 245, 245, 0.966);
+}
+
+.img-logo a:hover {
+	color: rgba(245, 245, 245, 0.966);
+}
+
+.img-text .subtitle {
+	font-weight: 600;
+	transition: 0.5s;
+	color: transparent;
+}
+
+.img-text:hover .subtitle {
+	font-weight: 600;
+	color: rgb(255, 255, 255);
+}
+
+.img-darken {
+	transition: 1s;
+	filter: brightness(10%);
+}
+
+/* individual portfolio page */
+.ind-portfolio-img img {
+	width: 60%;
+	margin-left: 25%;
+}
+
+/* about page */
+.columns-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.profile-img img {
+	width: 450px;
+	height: 550px;
+	border-radius: 50%;
+	margin-left: 25%;
+}
+
+.profile-description {
+	padding: 30px;
+}
+
+.profile-description h1 {
+	color: rgb(13, 114, 197);
+}
+
+.socials {
+	display: flex;
+}
+
+.about-link-wrapper {
+	height: 30px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+	margin-right: 10px;
+}
+
+.about-link-wrapper a {
+	color: #8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.about-link-wrapper:hover {
+	border-bottom: 1px solid black;
+}
+
+.about-link-wrapper a:hover {
 	color: black;
 }

@@ -3,6 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Tiffany McNerlin</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
@@ -16,6 +22,10 @@
 					<div class="nav-link-wrapper">
 						<a href="about.html">ABOUT</a>
 					</div>
+
+					<!-- <div class="nav-link-wrapper">
+						<a href="resume.html">RESUME</a>
+					</div> -->
 				</div>
 
 				<div class="right-column">
@@ -27,32 +37,54 @@
 
 			<div class="content-container">
 				<div class="portfolio-container">
-					<div class="portfolio-item">
+					<div class="portfolio-item-wrapper">
 						<div
 							class="portfolio-img-bkgd"
-							style="background-image: url(images/leashed.png)"
-						>
-							<div class="img-text">
-								<div class="img-logo">
-									<img src="images/leashed.png" />
-								</div>
+							style="background-image: url(images/leashed-bkgd.jpg)"
+						></div>
 
-								<div class="subtitle">Tinder For Dogs</div>
+						<div class="img-text">
+							<div class="img-logo">
+								<a href="portfolio-leashed.html">Leashed</a>
+							</div>
+
+							<div class="subtitle">
+								Leashed is a cross-platform mobile application that connects dog
+								owners to other local dog owners through Tinder-style matching
+								and realtime chat
 							</div>
 						</div>
+					</div>
 
-						<div class="portfolio-item">
-							<div
-								class="portfolio-img-bkgd"
-								style="background-image: url(images/task-tracker-logo.png)"
-							>
-								<div class="img-text">
-									<div class="img-logo">
-										<img src="images/task-tracker-logo.png" />
-									</div>
+					<div class="portfolio-item-wrapper">
+						<div
+							class="portfolio-img-bkgd"
+							style="background-image: url(images/task-tracker-bkgd.jpg)"
+						></div>
+						<div class="img-text">
+							<div class="img-logo">
+								<a href="portfolio-task-tracker.html">Task Tracker</a>
+							</div>
 
-									<div class="subtitle">Task Tracker</div>
-								</div>
+							<div class="subtitle">
+								Task Tracker is a simple daily task manager, where users can
+								organize their daily responsibilities in one place
+							</div>
+						</div>
+					</div>
+
+					<div class="portfolio-item-wrapper">
+						<div
+							class="portfolio-img-bkgd"
+							style="background-image: url(images/rare-plant-bkgd.jpg)"
+						></div>
+						<div class="img-text">
+							<div class="img-logo">
+								<a href="portfolio-rare-plant-shop.html">Rare Plant Shop</a>
+							</div>
+
+							<div class="subtitle">
+								A plant shop for all the expensive houseplants you can't afford
 							</div>
 						</div>
 					</div>
@@ -60,4 +92,18 @@
 			</div>
 		</div>
 	</body>
+
+	<script>
+		const portfolio = document.querySelectorAll(".portfolio-item");
+
+		portfolio.forEach((item) => {
+			item.addEventListener("mouseover", () => {
+				item.childNodes[1].classList.add("img-darken");
+			});
+
+			item.addEventListener("mouseout", () => {
+				item.childNodes[1].classList.remove("img-darken");
+			});
+		});
+	</script>
 </html>
