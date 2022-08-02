@@ -196,3 +196,10 @@ body {
 	border-bottom: 1px solid rgb(37, 168, 135);
 	color: rgb(37, 168, 135);
 }
+
+/* resume page */
+.resume-wrapper {
+	display: flex;
+	justify-content: center;
+	font-size: larger;
+}
