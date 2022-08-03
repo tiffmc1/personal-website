@@ -129,7 +129,9 @@ body {
 }
 
 .task-tracker-img img {
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
 }
 
 .rare-plant-shop-img img {
