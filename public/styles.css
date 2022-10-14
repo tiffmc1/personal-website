@@ -128,6 +128,12 @@ body {
 	margin-left: 50px;
 }
 
+.mini-react-projects-img {
+	margin-top: -3%;
+	margin-left: 3%;
+	margin-right: 5%;
+}
+
 .task-tracker-img img {
 	width: 80%;
 	margin-left: 10%;
