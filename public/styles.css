@@ -191,10 +191,3 @@ body {
 .socials-link a:hover {
 	color: teal;
 }
-
-/* resume page */
-.resume-wrapper {
-	display: flex;
-	justify-content: center;
-	font-size: larger;
-}
