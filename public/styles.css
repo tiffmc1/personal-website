@@ -148,53 +148,68 @@ body {
 
 /* about page */
 .columns-container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.profile-img img {
-	width: 50%;
+.profile-img-wrapper {
+	width: 30%;
+}
+
+.profile-img {
 	border-radius: 50%;
-	margin-left: 25%;
-	margin-top: 5%;
 }
 
 .profile-description {
-	padding-top: 10px;
-	padding-right: 50px;
-	margin-right: 15%;
-	font-size: larger;
+	font-size: 19px;
+	line-height: 1.5;
+	width: 60%;
+	min-height: 300px;
 }
 
 .profile-description h1 {
 	color: rgb(37, 168, 135);
 }
 
-.socials {
+/* .socials-wrapper a {
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+	color: #8a8a8a;
+} */
+
+/* .socials-wrapper:hover {
+	color: rgb(37, 168, 135);
+	border-bottom: 1px solid rgb(37, 168, 135);
+} */
+
+.socials-wrapper {
 	display: flex;
 }
 
-.socials-wrapper {
+.socials-link {
+	height: 22px;
+	margin-right: 10px;
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
-	margin-right: 10px;
 }
 
-.socials-wrapper a {
+.socials-link a {
 	color: #8a8a8a;
 	text-decoration: none;
 	transition: color 0.5s;
 }
 
-.socials-wrapper:hover {
+.socials-link:hover {
 	border-bottom: 1px solid rgb(37, 168, 135);
 }
 
-.socials-wrapper a:hover {
+.socials-link a:hover {
 	color: rgb(37, 168, 135);
 }
 
-.resume-plug {
+/* .resume-plug {
 	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 	color: #8a8a8a;
@@ -204,7 +219,7 @@ body {
 .resume-plug:hover {
 	border-bottom: 1px solid rgb(37, 168, 135);
 	color: rgb(37, 168, 135);
-}
+} */
 
 /* resume page */
 .resume-wrapper {
