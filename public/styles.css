@@ -137,7 +137,7 @@ body {
 }
 
 .page-description h1 {
-	color: rgb(37, 168, 135);
+	color: teal;
 }
 
 /* individual project & about page -- specific styling */
@@ -185,11 +185,11 @@ body {
 }
 
 .socials-link:hover {
-	border-bottom: 1px solid rgb(37, 168, 135);
+	border-bottom: 1px solid teal;
 }
 
 .socials-link a:hover {
-	color: rgb(37, 168, 135);
+	color: teal;
 }
 
 /* resume page */
