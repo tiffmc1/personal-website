@@ -14,76 +14,81 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<div class="index-container">
-			<div class="navbar-container">
-				<div class="left-column">
-					<div class="nav-link-wrapper">
-						<a href="index.html">HOME</a>
+		<header>
+			<div class="index-container">
+				<div class="navbar-container">
+					<div class="left-column">
+						<div class="nav-link-wrapper">
+							<a href="index.html">HOME</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="about.html">ABOUT</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="resume.html">RESUME</a>
+						</div>
 					</div>
 
-					<div class="nav-link-wrapper">
-						<a href="about.html">ABOUT</a>
-					</div>
-
-					<div class="nav-link-wrapper">
-						<a href="resume.html">RESUME</a>
-					</div>
-				</div>
-
-				<div class="right-column">
-					<div class="nav-name-wrapper">
-						<div>Tiffany McNerlin</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="content-container">
-				<div class="columns-container">
-					<div class="mockbuster-img">
-						<img src="images/mockbuster-page-bkgd.jpg" alt="" />
-					</div>
-
-					<div class="profile-description">
-						<h1>Mockbuster</h1>
-
-						<p>
-							Blockbuster lives on via <em>Mockbuster</em>! Choose from our high
-							selection of movies that are sure to make your movie night one
-							you'll never forget!
-						</p>
-
-						<h4>Technologies:</h4>
-						<ul>
-							Node.js: As the JavaScript runtime environment
-						</ul>
-						<ul>
-							Express: The backend web application framework
-						</ul>
-						<ul>
-							PostgreSQL: database for products, users, and admins
-						</ul>
-						<ul>
-							Sequelize: A promise-based Node.js ORM for PostgreSQL to serve the
-							model relations
-						</ul>
-						<ul>
-							React: For creating a highly interactive user interface
-						</ul>
-						<ul>
-							JWT Authentication: For user/admin login and sign-up functionality
-						</ul>
-						<div class="socials-wrapper">
-							<div class="socials-link">
-								<a
-									href="https://github.com/2111-almonaldi/2111-grace-shopper"
-									target="_blank"
-									>GitHub Repository</a
-								>
-							</div>
+					<div class="right-column">
+						<div class="nav-name-wrapper">
+							<div>Tiffany McNerlin</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
+
+		<main>
+			<div class="page-container">
+				<div class="mockbuster-img">
+					<img
+						src="images/mockbuster-page-bkgd.jpg"
+						alt=""
+						height="500"
+						width="350"
+					/>
+				</div>
+
+				<div class="page-description">
+					<h1>Mockbuster</h1>
+
+					<p>
+						Blockbuster lives on via <em>Mockbuster</em>! Choose from our high
+						selection of movies that are sure to make your movie night one
+						you'll never forget!
+					</p>
+
+					<section>
+						<h4>Technologies:</h4>
+						<ul>
+							<li>Node.js: As the JavaScript runtime environment</li>
+							<li>Express: The backend web application framework</li>
+							<li>PostgreSQL: database for products, users, and admins</li>
+							<li>
+								Sequelize: A promise-based Node.js ORM for PostgreSQL to serve
+								the model relations
+							</li>
+							<li>React: For creating a highly interactive user interface</li>
+							<li>
+								JWT Authentication: For user/admin login and sign-up
+								functionality
+							</li>
+						</ul>
+					</section>
+
+					<div class="socials-wrapper">
+						<div class="socials-link">
+							<a
+								href="https://github.com/2111-almonaldi/2111-grace-shopper"
+								target="_blank"
+								>GitHub Repository</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>

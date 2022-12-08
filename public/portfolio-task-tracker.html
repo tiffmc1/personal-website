@@ -13,71 +13,76 @@
 		/>
 		<link rel="stylesheet" href="styles.css" />
 	</head>
+
 	<body>
-		<div class="index-container">
-			<div class="navbar-container">
-				<div class="left-column">
-					<div class="nav-link-wrapper">
-						<a href="index.html">HOME</a>
+		<header>
+			<div class="index-container">
+				<div class="navbar-container">
+					<div class="left-column">
+						<div class="nav-link-wrapper">
+							<a href="index.html">HOME</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="about.html">ABOUT</a>
+						</div>
+
+						<div class="nav-link-wrapper">
+							<a href="resume.html">RESUME</a>
+						</div>
 					</div>
 
-					<div class="nav-link-wrapper">
-						<a href="about.html">ABOUT</a>
-					</div>
-
-					<div class="nav-link-wrapper">
-						<a href="resume.html">RESUME</a>
-					</div>
-				</div>
-
-				<div class="right-column">
-					<div class="nav-name-wrapper">
-						<div>Tiffany McNerlin</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="content-container">
-				<div class="columns-container">
-					<div class="task-tracker-img">
-						<img src="images/task-tracker-screenshot.png" alt="" />
-					</div>
-
-					<div class="profile-description">
-						<h1>Task Tracker</h1>
-
-						<p>
-							Task Tracker is a simple task manager, where users can organize
-							their daily responsibilities in one place
-						</p>
-
-						<h4>Technologies:</h4>
-						<ul>
-							React: For creating a highly interactive user interface
-						</ul>
-						<ul>
-							Redux: To build, store, and manage state containers
-						</ul>
-						<ul>
-							Node.js: As the JavaScript runtime environment
-						</ul>
-						<ul>
-							PostgreSQL: To serve as the database
-						</ul>
-						<ul>
-							Sequelize: A promise-based Node.js ORM for PostgreSQL to serve the
-							model relations
-						</ul>
-						<div class="socials-wrapper">
-							<div class="socials-link">
-								<a href="https://github.com/tiffmc1/Task-List" target="_blank"
-									>GitHub Repository</a
-								>
-							</div>
+					<div class="right-column">
+						<div class="nav-name-wrapper">
+							<div>Tiffany McNerlin</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</header>
+
+		<main>
+			<div class="page-container">
+				<div class="task-tracker-img">
+					<img
+						src="images/task-tracker-screenshot.png"
+						alt=""
+						height="400"
+						width="600"
+					/>
+				</div>
+
+				<div class="page-description">
+					<h1>Task Tracker</h1>
+
+					<p>
+						Task Tracker is a simple task manager, where users can organize
+						their daily responsibilities in one place
+					</p>
+
+					<section>
+						<h4>Technologies:</h4>
+						<ul>
+							<li>React: For creating a highly interactive user interface</li>
+							<li>Redux: To build, store, and manage state containers</li>
+							<li>Node.js: As the JavaScript runtime environment</li>
+							<li>PostgreSQL: To serve as the database</li>
+							<li>
+								Sequelize: A promise-based Node.js ORM for PostgreSQL to serve
+								the model relations
+							</li>
+						</ul>
+					</section>
+
+					<div class="socials-wrapper">
+						<div class="socials-link">
+							<a href="https://github.com/tiffmc1/Task-List" target="_blank"
+								>GitHub Repository</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
 	</body>
 </html>
