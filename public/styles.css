@@ -1,4 +1,4 @@
-/* master styles */
+/* main styles */
 body {
 	font-family: "Antic Slab", serif;
 	margin: 0px;
@@ -146,6 +146,11 @@ body {
 	height: 475px;
 	margin-right: 30px;
 	border: 1px solid black;
+}
+
+.quick-draw-img {
+	padding: 5px;
+	margin: 10px 50px 0px 20px;
 }
 
 /* .task-tracker-img {
